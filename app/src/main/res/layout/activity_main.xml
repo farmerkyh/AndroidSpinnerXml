@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:id="@+id/activity_login"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:paddingTop="20dp"
+        android:paddingLeft="30dp"
+        android:orientation="vertical"
+        tools:context="com.example.kyh.spinner01.com.example.kyh.spinnerxml.MainActivity">
+
+        <!-- 년도 -->
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  >
+            <TextView
+                android:id="@+id/tv_year"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="년     도" />
+            <Spinner
+                android:id="@+id/sp_year"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@id/tv_year"
+                android:gravity="right"></Spinner>
+        </RelativeLayout>
+
+        <!-- 월 -->
+        <RelativeLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"  >
+            <TextView
+                android:id="@+id/tv_month"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="30dp"
+                android:text="월 1~4" />
+            <Spinner
+                android:id="@+id/sp_month"
+                android:layout_width="200dp"
+                android:layout_height="30dp"
+                android:layout_toRightOf="@id/tv_month"
+                android:gravity="right"></Spinner>
+        </RelativeLayout>
+
+    </LinearLayout>

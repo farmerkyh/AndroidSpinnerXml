@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--단순 xml용-->
+    <string-array name="date_year">
+        <item>2014년</item>
+        <item>2015년</item>
+    </string-array>
+
+    <!--strings.xml  Resource 활용 -->
+    <string-array name="date_month">
+        <item>@string/list_item_01</item>
+        <item>@string/list_item_02</item>
+        <item>@string/list_item_03</item>
+        <item>@string/list_item_04</item>
+    </string-array>
+</resources>
